@@ -1,0 +1,12 @@
+<html>
+    <!-- component -->
+    <div x-data="{ count: 0 }">
+        <button @click="count++">+</button>
+        <button @click="count--">-</button>
+        <span x-text="count"></span>
+        <span x-show="count > 2">I'm over 2</span>
+        <span x-show="count < 2">I'm under 2</span>
+    </div>
+    <!-- component -->
+    <script src="./app.js"></script>
+</html>
